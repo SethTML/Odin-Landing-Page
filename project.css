@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.c1 {
+    background-color: #1F2937;
+    width: 100vw;
+    height: 32%;
+}
+
+.c2 {
+    background-color: #e0e0e0;
+    width: 100vw;
+    height: 60%;
+}
+
+.c3 {
+    background-color: #1F2937;
+    width: 100vw;
+    height: 8%;
+}
+
+.HERO {
+    display: flex;
+    background-color: red;
+    width: 80%;
+    height: 37%;
+}
