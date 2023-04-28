@@ -29,7 +29,6 @@ body{
 
 .HeroBox{
     display: flex;
-    align-items:center;
     margin-left:auto;
     margin-right: auto;
     width: 75%;
@@ -37,9 +36,10 @@ body{
 }
 
 .HeroTextBox{
-    background-color: red;
+    display: flex;
     width: 50%;
-    height:100%;
+    flex-direction: column;
+    background-color: red;
 }
 
 .HeroBigFont{
