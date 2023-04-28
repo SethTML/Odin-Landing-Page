@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+
+.Header{
+    background-color: #1F2937;
+    width: 100vw;
+    height: 100vh;
+}
+.HeaderBox{
+    display: flex;
+    align-items:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #F9FAF8;
+    background-color: rgba(255, 0, 0, 0.161);
+    width: 50%;
+    height: 13%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.HeaderLink{
+
+    margin: 10px;
+}
