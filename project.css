@@ -55,6 +55,14 @@ body{
     font-size: 15px;
 }
 
+.HeroButton{
+    border: none;
+    color: #F9FAF8;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(32, 169, 255);
+    border-radius: 5px;
+}
+
 .HeroImg{
     background-color: blue;
     width: 50%;
