@@ -5,7 +5,7 @@ body{
 .HeaderRo{
     background-color: #1F2937;
     width: 100vw;
-    height: 30vh;
+    height: 35vh;
 }
 .HeaderBox{
     display: flex;
@@ -31,7 +31,7 @@ body{
     display: flex;
     margin-left:auto;
     margin-right: auto;
-    width: 75%;
+    width: 55%;
     height: 65%;
 }
 
@@ -39,11 +39,10 @@ body{
     display: flex;
     width: 50%;
     flex-direction: column;
-    background-color: red;
 }
 
 .HeroBigFont{
-    font-weight: 800;
+    font-weight: 900;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: #F9FAF8;
     font-size: 30px;
@@ -59,12 +58,77 @@ body{
     border: none;
     color: #F9FAF8;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(32, 169, 255);
+    font-weight: 600;
+    background-color: rgb(13, 158, 248);
     border-radius: 5px;
+    width: 35%;
+    height:20%;
+    font-size: 20px;
 }
 
 .HeroImg{
-    background-color: blue;
     width: 50%;
     height:100%;
 }
+
+.HeroImg img{
+    width: 100%;
+    height: 100%;
+}
+
+/*
+HeaderRo Fin
+*/
+
+.Content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 25vh;
+    background-color: #F9FAF8;
+}
+
+.ContentInfo{
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    width: 100%;
+    height: 25%;
+}
+
+.ContentInfoText{
+    color:#1F2937;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ContentImages{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    height: 100%;
+}
+
+.ContentImage{
+    width: 100px;
+    height:100px;
+    border: 3px solid rgb(32, 169, 255);
+    border-radius: 7px;
+}
+
+.ContentImage img{
+    width: 100%;
+    height: 100%;
+}
+
+.ContentImageSubtitle{
+    color: #1F2937;
+    font-weight: 549;
+    font-size: 11px;
+}
+
+/* Content Fin*/
+
