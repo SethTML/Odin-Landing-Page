@@ -63,7 +63,7 @@ body{
     border-radius: 5px;
     width: 35%;
     height:20%;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .HeroImg{
@@ -182,6 +182,7 @@ HeaderRo Fin
 }
 
 .FooterText{
+    font-weight: 700;
     color:#F9FAF8;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
