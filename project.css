@@ -132,3 +132,56 @@ HeaderRo Fin
 
 /* Content Fin*/
 
+.BHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6e6e6;
+    width: 100vw;
+    height: 30vh;
+}
+
+.BHeaderTextBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 70%;
+}
+
+.BHeaderText{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color:#1F2937;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.BHeaderText2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color:#1F2937;
+    font-weight: 800;
+    margin-left: auto;
+}
+
+/*BHeader Fin*/
+
+.Footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    background-color: #1F2937;
+}
+
+.FooterTextBox{
+
+}
+
+.FooterText{
+    color:#F9FAF8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
